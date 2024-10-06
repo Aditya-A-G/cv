@@ -1,4 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { link } from "fs";
 
 export const RESUME_DATA = {
   name: "Aditya Ghadge",
@@ -53,6 +54,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Freelance",
+      link: "https://github.com/aditya-A-G",
       title: "Full Stack Developer",
       badges: ["Remote"],
       start: "September 2024",
