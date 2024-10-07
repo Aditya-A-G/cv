@@ -79,6 +79,24 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Website Testing Platform",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Express",
+        "RabbitMq",
+        "Puppeteer",
+        "Redis",
+        "MongoDB",
+      ],
+      description:
+        "Built a platform to test website performance, measuring load times, interactivity and more from different regions and preparing to add more types of testing.",
+      link: {
+        label: "Website Testing",
+        href: "https://testify.adityacodes.tech/",
+      },
+    },
+    {
       title: "Multiplayer Chess",
       techStack: ["TypeScript", "React", "Express", "WebSockets", "MongoDB"],
       description:
@@ -108,24 +126,7 @@ export const RESUME_DATA = {
         href: "https://whiteboard.adityacodes.tech/",
       },
     },
-    {
-      title: "Website Testing Platform",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Express",
-        "RabbitMq",
-        "Puppeteer",
-        "Redis",
-        "MongoDB",
-      ],
-      description:
-        "Built a platform to test website performance, measuring load times, interactivity and more from different regions and preparing to add more types of testing.",
-      link: {
-        label: "Website Testing",
-        href: "https://testify.adityacodes.tech/",
-      },
-    },
+
     {
       title: "AI Blogger Landing Page",
       techStack: ["Next.js", "Framer Motion", "TailwindCSS"],
