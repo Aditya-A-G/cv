@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "I'm a Full Stack Engineer who enjoys building practical and scalable web applications. I have experience working on a wide range of projects, from real-time apps to AI-driven platforms. I always look for ways to improve both the user experience and system performance.",
   summary:
-    "I specialize in using TypeScript, React, NextJs and Node.js to develop high-quality web applications. I've successfully taken several projects from the initial concept to launch, focusing on both performance and maintainability. Recently, I've been working with AI tools and improving web performance.",
+    "I specialize in using Javascript, TypeScript, Python, React, NextJs, Node.js and FastApi to develop high-quality web applications. I've successfully taken several projects from the initial concept to launch, focusing on both performance and maintainability. Recently, I've been working with AI tools and improving web performance.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65503300?v=4",
   personalWebsiteUrl: "https://adityacodes.tech",
   contact: {
@@ -76,16 +76,19 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
+    "Python",
     "React/Next.js",
     "Tailwind",
     "Node.js",
     "Express",
+    "FastApi",
     "MongoDB",
     "Postgres",
     "Redis",
     "CI/CD",
     "Docker",
     "AWS",
+    "GCP"
   ],
   projects: [
     {
