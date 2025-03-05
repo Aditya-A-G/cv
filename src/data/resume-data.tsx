@@ -1,5 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { link } from "fs";
+import { LeetCodeIcon } from "@/components/icons/LeetCodeIcon";
 
 export const RESUME_DATA = {
   name: "Aditya Ghadge",
@@ -17,9 +17,19 @@ export const RESUME_DATA = {
     tel: "+91 9136795245",
     social: [
       {
+        name: "Portfolio",
+        url: "https://adityacodes.tech/",
+        icon: LeetCodeIcon,
+      },
+      {
         name: "GitHub",
         url: "https://github.com/aditya-A-G",
         icon: GitHubIcon,
+      },
+      {
+        name: "Leetcode",
+        url: "https://leetcode.com/u/Acquire/",
+        icon: LeetCodeIcon,
       },
       {
         name: "LinkedIn",
