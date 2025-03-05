@@ -53,24 +53,34 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Optriment",
-      link: "https://optriment.com",
-      badges: ["Remote", "Contract"],
-      title: "Software Engineer",
-      start: "May 2023",
-      end: "July 2023",
+      company: "Clyra",
+      link: "https://www.clyralabs.com/",
+      badges: ["Remote"],
+      title: "SDE - Full-Stack ",
+      start: "Nov 2024",
+      end: "Jan 2025",
       description:
-        "Developed and maintained full-stack web applications using Next.js, TypeScript, and Node.js. Focused on building efficient APIs and improving front-end performance. Led efforts in integrating smart contracts, reducing transaction costs by 20%, while ensuring seamless integration between the front-end and blockchain technologies.",
+        "A] Drove secure authentication by bridging Next.js SSR with a FastAPI backend, enabling robust authenticated sessions B] Engineered Airtable sync APIs with strict schema enforcement, cutting data validation errors by 35% C] Integrated LiveKit, various APIs, and animations into the frontend, thus boosting user interaction. D] Deployed frontend and backend on GCP using Nginx with automated SSL configuration, ensuring smooth deployments. ",
     },
     {
-      company: "Freelance",
-      link: "https://github.com/aditya-A-G",
-      title: "Full Stack Developer",
+      company: "Tring",
+      link: "https://gettring.com/",
       badges: ["Remote"],
-      start: "September 2024",
-      end: "Present",
+      title: "SDE - Frontend ",
+      start: "Sep 2024",
+      end: "Nov 2024",
       description:
-        "Working on B2B AI voice assistant. Tech Stack - React, NextJs, WebSockets, Tailwind, RadixUI ",
+        "A] Managed the frontend development of a B2B dashboard to ensure responsiveness and ease of use. B] Merged separate Admin and User React projects into a single, streamlined codebase. C] Built a mobile app using Expo (React Native), increasing product accessibility.",
+    },
+    {
+      company: "Optriment",
+      link: "https://optriment.com",
+      badges: ["Remote"],
+      title: "SDE - Full-Stack ",
+      start: "May 2023",
+      end: "Aug 2023",
+      description:
+        "A] Developed a smart contract for batch payments on the blockchain, reducing transaction costs by 15–20%. B] Built CRUD APIs for transactions with Prisma and PostgreSQL to streamline data operations.  C] Created an admin dashboard that shortened transaction audit time by 45% for the operations team.",
     },
   ],
   skills: [
@@ -88,7 +98,7 @@ export const RESUME_DATA = {
     "CI/CD",
     "Docker",
     "AWS",
-    "GCP"
+    "GCP",
   ],
   projects: [
     {
